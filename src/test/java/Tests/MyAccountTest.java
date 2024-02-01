@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class MyAccountTest extends TestBase{
     HomePage homeObject;
-    UserRegestrationPage registerObject;//2
+    UserRegestrationPage registerObject;
     LoginPage loginObject;
     MyAccountPage myAccountObject;
     @Test(priority = 1)

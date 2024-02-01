@@ -23,7 +23,6 @@ UserRegestrationPage registerObject;//2
         homeObject = new HomePage(driver);
         homeObject.openRegistrationPage();
         registerObject = new UserRegestrationPage(driver);//2
-        //الفانكشن اللى هنملى فيها الحاجة
         registerObject.userRegistration("shaimaa", "mohsen", "shaimaa99999900@yahoo.com", "123456789090");
       Assert.assertTrue(registerObject.successMessage.getText().contains("Your registration completed"));
     }
