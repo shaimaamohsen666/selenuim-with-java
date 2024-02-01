@@ -1,0 +1,9 @@
+<suite name="Smoke Test" >
+    <test verbose="2" preserve-order="true" name = "Smoke Try Test">
+        <classes>
+            <class name="Tests.UserRegistrationTest" ></class>
+
+
+        </classes>
+    </test>
+</suite>
