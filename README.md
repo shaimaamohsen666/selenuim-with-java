@@ -1,4 +1,4 @@
-# selesnuim framwork
+# selenuim framwork
 using Java / testNG / Maven / POM 
 we are using BDD & DDT framework in this project 
 
